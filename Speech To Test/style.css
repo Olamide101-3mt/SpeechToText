@@ -10,7 +10,7 @@ body{
   align-items: center;
   min-height: 90vh;
   font-family: sans-serif;
-  background: linear-gradient( to right,#1e3c72,#2a5298, #00c6fb,#1e3c72);
+  background: linear-gradient( to right,  #1e3c72, #2a5298, #6a11cb, #2575fc);
 }
 
 h1{
@@ -56,12 +56,16 @@ button{
   height: 80px;
   font-size: 20px;
   border-radius: 50%;
-  background-color: indigo;
+  background-color: #2196f3;
   color: #fff;
   border: none;
   outline: none;
   animation: pulse 1.5s infinite alternate;
   cursor: pointer;
+}
+
+#stopRecording{
+  background-color: #e91e63;
 }
 
 button:hover{
