@@ -80,3 +80,36 @@ button:hover{
     transform: scale(1.1);
   }
 }
+
+@media screen and (max-width: 320px) {
+  h1{
+    font-size: 16px;
+  }
+
+  .container{
+    width: 70%;
+  }
+
+  button{
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+  }
+  
+}
+@media screen and (max-width: 425px) {
+  h1{
+    font-size: 16px;
+  }
+
+  .container{
+    width: 70%;
+  }
+
+  button{
+    font-size: 16px;
+    width: 50px;
+    height:50px;
+  }
+  
+}
